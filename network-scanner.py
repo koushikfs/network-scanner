@@ -4,7 +4,7 @@ import optparse
 
 def get_arguments():
     arguments = optparse.OptionParser()
-    arguments.add_option("-i", "--ip_address", dest="target_ip", help= "give the specific target ip address")
+    arguments.add_option("-i", "--ip_address", metavar='\b', dest="target_ip", help= "give the specific target ip address")
     value, option = arguments.parse_args()
     if not value.target_ip:
         arguments.error("specify the target ip using -i or --ip_address")
