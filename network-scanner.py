@@ -30,7 +30,7 @@ def extracting_values(answered_lst):
 
 
 def print_values(client_lst):
-    print("Network-Scanner coded by @koushikk11")
+    print("Network-Scanner coded by @koushikk11\n")
     print("    IP\t\t\t   MAC-ADDRESS")
     print("-----------------------------------------")
     for i in range(0,len(client_lst)):
