@@ -32,6 +32,7 @@ def extracting_values(answered_lst):
 def print_values(client_lst):
     print("\nNetwork-Scanner coded by @koushikk11\n")
     print("Date:21/06/2021\n")
+    print("Github: koushikfs\n")
     print("    IP\t\t\t   MAC-ADDRESS")
     print("-----------------------------------------")
     for i in range(0,len(client_lst)):
